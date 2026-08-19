@@ -89,7 +89,31 @@ Below are the benchmark prompts used to test the translator. You can copy-paste 
 
 ---
 
-### Benchmark 4: Character Commentary Mode (Lala Company Edition)
+### Benchmark 4: RTO "Soft Layoff" Mandate & Bonus Cancellation Email
+
+**Prompt**:
+> Decode the following company email using corporate-jargon-translator:
+>
+> **Subject**: Enhancing Collaboration, In-Person Synergy & Our 2026 Growth Bonus Framework  
+> **Team**,  
+> Over the last two quarters, we’ve observed incredible cross-functional dedication across our global hubs. As we enter the next phase of institutional maturity, we want to address two key areas of employee feedback: high-touch collaboration and transparent compensation.  
+>  
+> First, to cultivate our high-velocity innovation cadence and foster organic mentorship, we are updating our workplace presence philosophy. Effective next month, we are sunsetting our fully remote flexibility to institute a minimum 4-day in-office standard. We recognize that changes to routine can require personal recalibration, so we are empowering people leaders to manage localized exceptions on a case-by-case basis based on critical operational dependencies. We are confident this physical alignment will naturally separate our highest-conviction contributors from transactional players.  
+>  
+> Second, regarding the 2026 performance bonus pool: while top-line revenue exceeded initial baseline projections, unpredictable macroeconomic headwinds and proactive enterprise reserve funding mean our discretionary payout metrics require strategic realignment. To ensure equitable capital allocation, bonuses will be transitioned into performance-weighted milestone tranches linked to our Q4 liquidity audit.  
+>  
+> Thank you for your continued agility and institutional commitment as we build a best-in-class workplace together.
+
+**Expected Decoded Insights**:
+- **"Sunsetting fully remote flexibility for 4-day in-office standard"** → **Soft Layoff / Constructive Dismissal**: Forcing RTO to induce voluntary resignations without paying severance.
+- **"Empowering leaders to manage localized exceptions"** → Favoritism & leverage; WFH passes used to reward sycophants and punish dissenters.
+- **"Separate highest-conviction contributors from transactional players"** → Shaming employees who resign over commute/family needs.
+- **"Revenue exceeded projections, but macroeconomic headwinds require payout realignment"** → Record profits, but management is pocketing cash and withholding earned bonuses.
+- **"Bonuses transitioned into milestone tranches linked to liquidity audit"** → **Bonus Cancellation / Moving Goalposts**: Cash bonus pool is frozen; payouts tied to impossible future audits.
+
+---
+
+### Benchmark 5: Character Commentary Mode (Lala Company Edition)
 
 **Prompt** (or equivalently: `/lala-panel <the announcement>`):
 > Give me a Lala Company panel reaction to this announcement:
