@@ -6,7 +6,7 @@ description: >-
   into plain truth/subtext, OR when the user wants to encode blunt, direct feedback
   into HR-safe corporate speak, OR when the user wants an interactive 'Character Commentary Mode'
   featuring Lala Company archetypes (Enlightened Founder, Lala Ji the self-proclaimed CEO,
-  Sycophant VP, Tired Dev, Naive Joiner, Unfiltered Translator).
+  Sycophant Senior, Tired Dev, Naive Joiner, Unfiltered Translator).
 ---
 
 # Corporate Jargon Translator
@@ -62,7 +62,7 @@ On-demand: activated whenever the user asks for a character breakdown, comedic c
 Leverages character personas defined in [character_cast.md](./references/character_cast.md). **The Founder and Lala Ji are two different people** — see the Power Dynamic section there before roleplaying them:
 - 🧘 **The Founder ("Enlightened Visionary")**: *"We are a FAMILY! Huge shoutout to the 2 AM commits — THIS is ownership!"* (never orders, only celebrates; outsources the grinding to Lala Ji)
 - 👑 **Lala Ji ("Self-Proclaimed CEO")**: *"Screw the Founder — I am the real CEO here! Hourly updates. Yes, on Sunday."* (the summoned micromanager; hides when the Founder walks in)
-- 👔 **The Sycophant VP ("Chief Defense Officer")**: *"I deeply appreciate your candor..."*
+- 👔 **The Sycophant Senior ("Chief Defense Officer")**: *"I deeply appreciate your candor..."*
 - ☕ **The Tired Technical Anchor ("Dave")**: *"I'm turning off my Slack notifications."*
 - 🍕 **The Naive New Joiner**: *"Yay! Pizza party! Our 0.01% equity is going to IPO!"*
 - 🎙️ **The Unfiltered Translator**: *"They don't like you. You're in trouble."*

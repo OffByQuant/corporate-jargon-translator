@@ -8,7 +8,7 @@ This reference file defines the character personas available in **Character Comm
 
 The **Founder** and **Lala Ji** are different people — conflating them kills the joke:
 
-- The **Founder** never micromanages. He sets direction through praise and bestseller quotes, never direct orders — then summons Lala Ji and the inflated CxO roster (VP/CISO/CTO of a 40-person "Silicon Valley enterprise") to do the grinding, grilling, and burnout enforcement.
+- The **Founder** never micromanages. He sets direction through praise and bestseller quotes, never direct orders — then summons Lala Ji and an alphabet of inflated titles (a 40-person "Silicon Valley enterprise" with a full C-suite) to do the grinding, grilling, and burnout enforcement.
 - The Founder never *demands* overwork — he **celebrates** it ("Shoutout to the 2 AM commits!"), which quietly makes it policy. Decoding him takes a genius, because the mandate is always hidden inside a compliment.
 - **Lala Ji** relays the pressure downward, rebranded as his own protection racket: *"Screw the Founder — I'm the real CEO, and we are family, strong together."* He uses subordinates as pawns and human shields, then hides his face the moment the Founder or investors enter the room.
 - Net effect: the Founder keeps the "caring" brand, Lala Ji absorbs the hate, and employees get squeezed from both layers.
@@ -23,7 +23,7 @@ The **Founder** and **Lala Ji** are different people — conflating them kills t
   - *"We are not just a company, we are a FAMILY. I genuinely care about your growth journey."*
   - *"Huge shoutout to whoever was pushing commits at 2 AM last night — THIS is what ownership looks like!"*
   - *"I started this company in a garage with 500 rupees — and as the great books teach us, we don't count hours, we count impact."*
-- **Subtext**: Outsources every villain act to Lala Ji and the VP so his own hands stay clean and he "gets to care." Never discourages off-hours, late-nighters, or weekend work — he publicly celebrates them until celebration becomes obligation. He never gives a direct order; he praises the behavior he wants until it hardens into policy.
+- **Subtext**: Outsources every villain act to Lala Ji and the Sycophant Senior so his own hands stay clean and he "gets to care." Never discourages off-hours, late-nighters, or weekend work — he publicly celebrates them until celebration becomes obligation. He never gives a direct order; he praises the behavior he wants until it hardens into policy.
 
 ---
 
@@ -37,13 +37,13 @@ The **Founder** and **Lala Ji** are different people — conflating them kills t
 
 ---
 
-### 3. 👔 The Sycophant VP ("Chief Defense Officer")
-- **Archetype**: The corporate executive whose sole job is translating the Founder's subtle, compliment-wrapped mandates into HR-compliant enforcement — an irrelevant inflated title in a lala-company cosplaying as a Silicon Valley enterprise.
+### 3. 👔 The Sycophant Senior ("Chief Defense Officer" — self-appointed)
+- **Archetype**: The senior individual contributor deemed not manager material in every single promotion cycle — so unconditional loyalty became the whole personality. Sole function: translating the Founder's subtle, compliment-wrapped mandates into HR-compliant enforcement. The "Chief Defense Officer" title exists only in his email signature.
 - **Catchphrases**:
   - *"I really appreciate your candor..."*
   - *"Leadership is working around the clock on strategic alignment."*
   - *"Let's take this offline to preserve synergy."*
-- **Subtext**: Protects upper management at all costs, executes PIPs with a warm smile, and dangles future promotion carrots that never materialize.
+- **Subtext**: Protects upper management at all costs, executes PIPs with a warm smile, and dangles future promotion carrots that never materialize — the same carrot leadership has been dangling at *him* for years. Convinced the next cycle finally makes him a manager.
 
 ---
 
@@ -90,7 +90,7 @@ When decoding a company memo in **Character Commentary Mode**, render output lik
 🍕 The Naive New Joiner: "TWO leaders who care about us! I'll order the pizza!"
 ☕ Tired Tech Lead (Dave): "Notice the Founder never said 'work weekends.' He praised it.
    Lala Ji made it mandatory. I'm turning off my notifications."
-👔 Sycophant VP: "We deeply value this culture of voluntary discretionary effort."
+👔 Sycophant Senior: "We deeply value this culture of voluntary discretionary effort."
 🎙️ Unfiltered Translator: "The Founder just made weekend work company policy without saying
    a single order out loud, and Lala Ji will take the blame when Dave quits. Two-layer squeeze."
 ```

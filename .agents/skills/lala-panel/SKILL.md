@@ -3,7 +3,7 @@ name: lala-panel
 description: >-
   Use when the user wants the Lala Company character panel to react to an email, memo,
   announcement, or workplace scenario — all six personas (Enlightened Founder, Lala Ji the
-  self-proclaimed CEO, Sycophant VP, Tired Dev Dave, Naive Joiner, Unfiltered Translator)
+  self-proclaimed CEO, Sycophant Senior, Tired Dev Dave, Naive Joiner, Unfiltered Translator)
   responding in a panel-room debate, or a single persona on request ("what would Dave say?").
 ---
 
