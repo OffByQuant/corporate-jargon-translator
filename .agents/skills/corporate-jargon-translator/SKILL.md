@@ -27,13 +27,19 @@ Activated when analyzing emails, manager DMs, performance reviews, town halls, o
    - 🟡 **MEDIUM**: Subtle pushback, scope creep, or deflection.
    - 🟠 **HIGH**: Imminent threat to role, compensation dilution, or heavy workload.
    - 🔴 **CRITICAL**: PIP, disciplinary track, termination risk, or legal setup.
-4. **Structured Table Output**:
-   Must use formatted Markdown tables with explicit line breaks after every row:
-   ```markdown
-   | Corporate Jargon / Phrase | Actual Subtext | Risk Level |
-   | :--- | :--- | :--- |
-   | **"Wanted HR here..."** | Bringing legal/HR coverage to document a PIP or termination. | 🔴 CRITICAL |
-   ```
+4. **Output Contract — every decode, in this order**:
+   1. **🎙️ Inline Translator Overlay**: Walk through the input first — quote each jargon-loaded line, followed by the Unfiltered Translator's one-line razor commentary:
+      ```text
+      > "I just wanted HR here to make sure we're all on the same page."
+      🎙️ Translator: HR is here. You're in trouble.
+      ```
+   2. **Summary Decoder Table**: Formatted Markdown table with explicit line breaks after every row:
+      ```markdown
+      | Corporate Jargon / Phrase | Actual Subtext | Risk Level |
+      | :--- | :--- | :--- |
+      | **"Wanted HR here..."** | Bringing legal/HR coverage to document a PIP or termination. | 🔴 CRITICAL |
+      ```
+   3. **Tactical Employee Advice**: 2-3 actionable, pragmatic survival steps.
 
 ---
 
@@ -49,7 +55,7 @@ Activated when the user asks: *"How do I say this professionally?"* or *"Transla
 ---
 
 ### Mode C: CHARACTER COMMENTARY MODE (Lala Company Edition) 🎭
-Activated when the user requests a character breakdown, comedic commentary, or Lala Company reaction panel.
+On-demand: activated whenever the user asks for a character breakdown, comedic commentary, a Lala Company reaction panel, or anything like *"how would all the personas respond to this email/message?"*. Any subset works too (*"what would Dave say?"*). Combine with Mode A by asking for the **full show**: inline overlay → decoder table → tactical advice → character panel.
 
 Leverages character personas defined in [character_cast.md](./references/character_cast.md). **The Founder and Lala Ji are two different people** — see the Power Dynamic section there before roleplaying them:
 - 🧘 **The Founder ("Enlightened Visionary")**: *"We are a FAMILY! Huge shoutout to the 2 AM commits — THIS is ownership!"* (never orders, only celebrates; outsources the grinding to Lala Ji)
@@ -63,10 +69,7 @@ Leverages character personas defined in [character_cast.md](./references/charact
 
 ## Special Workflow: Meeting & Video Transcript Analysis
 
-When given a multi-speaker transcript, follow the dual output format demonstrated in [video_transcript_demo.md](./examples/video_transcript_demo.md):
-1. **Inline Translator Overlay**: Interleave lines with comedic, razor-sharp translator commentary.
-2. **Summary Decoder Table**: Clean Markdown table summarizing all corporate phrases.
-3. **Tactical Employee Advice**: 2-3 actionable, pragmatic steps.
+Multi-speaker transcripts follow the same Mode A output contract — interleave the 🎙️ Translator commentary per speaker line, as demonstrated in [video_transcript_demo.md](./examples/video_transcript_demo.md), then the summary decoder table and tactical advice.
 
 ---
 

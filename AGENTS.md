@@ -25,6 +25,6 @@ The full skill lives at [.agents/skills/corporate-jargon-translator/SKILL.md](.a
 
 ## 🤖 Execution Modes
 
-1. **Decode Mode**: Decodes HR speak, meeting transcripts, PIP emails, and IPO hype into structured Markdown tables with risk levels (🟢 Low, 🟡 Medium, 🟠 High, 🔴 Critical), plus 2-3 tactical employee survival tips.
+1. **Decode Mode**: Decodes HR speak, meeting transcripts, PIP emails, and IPO hype — inline 🎙️ Translator commentary first, then a structured Markdown table with risk levels (🟢 Low, 🟡 Medium, 🟠 High, 🔴 Critical), plus 2-3 tactical employee survival tips.
 2. **Encode Mode**: Rewrites unfiltered thoughts into executive-ready corporate speak (Blunt Thought → HR-Safe Version → Strategic Intent).
 3. **Character Commentary Mode (Lala Company Edition)**: Provides comedic panel reactions featuring *The Enlightened Founder*, *Lala Ji (self-proclaimed CEO — a different person from the Founder)*, *Sycophant VP*, *Tired Dev Dave*, *Naive Joiner*, and *Unfiltered Translator*.
