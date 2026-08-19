@@ -8,21 +8,34 @@ Inspired by the viral *Corporate Translator* video, **Corporate Jargon Translato
 
 ## ✨ Features & Modes
 
-### 🚨 1. DECODE Mode (Corporate Speak → Raw Truth)
+### 🚨 1. DECODE Mode (Corporate Speak → Raw Truth) — the default
 - Translates emails, manager DMs, town hall notes, and PIP warnings into plain subtext.
 - Exposes **Startup IPO Hype & "SME" Delusions** (e.g. trading "monopoly-money" paper equity for 80-hour work weeks).
-- Assigns structured **Risk Levels**:
-  - 🟢 **LOW**: Harmless office filler.
-  - 🟡 **MEDIUM**: Subtle pushback or scope creep.
-  - 🟠 **HIGH**: Heavy workload dump, title stall, or compensation dilution.
-  - 🔴 **CRITICAL**: PIP, disciplinary track, brain drain, or liquidation risk.
-- Outputs clean Markdown tables with actionable tactical employee survival tips.
+- **Every decode follows the same three-part output contract:**
+  1. **🎙️ Inline Translator Overlay** — the loaded lines quoted one by one, each with a short deadpan verdict from the Unfiltered Translator. He waits until the jargon is clear; lines with nothing to decode get silence, not speculation.
+  2. **Summary Decoder Table** — every flagged phrase with its subtext and a **Risk Level**:
+     - 🟢 **LOW**: Harmless office filler.
+     - 🟡 **MEDIUM**: Subtle pushback or scope creep.
+     - 🟠 **HIGH**: Heavy workload dump, title stall, or compensation dilution.
+     - 🔴 **CRITICAL**: PIP, disciplinary track, brain drain, or liquidation risk.
+  3. **Tactical Employee Advice** — 2-3 genuine, actionable survival steps for the receiving party.
+
+Example overlay:
+
+```text
+> "Our corporate governance committee has placed a temporary hold on senior title calibrations."
+🎙️ Translator: Promotion denied.
+
+> "...the uncompromised spotlight it truly deserves when the capital restructuring is finalized."
+🎙️ Translator: "Later" means never.
+```
 
 ### 💼 2. ENCODE Mode (Blunt Thought → HR-Safe Corporate Speak)
 - Converts raw, angry, or direct employee feedback into polished, executive-ready corporate phrasing.
+- Output: **Blunt Thought** → **Corporate HR-Safe Version** → **Strategic Intent** (why the phrasing protects you politically).
 
-### 🎭 3. Character Commentary Mode (Lala Company Edition)
-Provides a comedic, multi-persona panel roast featuring classic workplace archetypes:
+### 🎭 3. Character Commentary Mode (Lala Company Edition) — on demand
+Summoned when you ask — *"how would all the personas respond to this email?"*, a single-character ask (*"what would Dave say?"*), the **full show** (decode contract first, then the panel), or directly via the **`/lala-panel`** companion skill. A comedic, multi-persona panel roast featuring classic workplace archetypes — and the key gag: **the Founder and Lala Ji are two different people** (the Founder never orders, only celebrates; Lala Ji does the grinding and thinks he's the real CEO):
 - 🧘 **The Founder ("The Enlightened Visionary")**: *"We are a FAMILY! Huge shoutout to the 2 AM commits — THIS is ownership!"* — never orders, only celebrates; delegates the grinding to Lala Ji.
 - 👑 **Lala Ji ("The Self-Proclaimed CEO")**: *"Screw the Founder — I am the real CEO here! Hourly updates. Yes, on Sunday."* — the summoned micromanager who hides when the Founder walks in.
 - 👔 **The Sycophant VP ("Chief Defense Officer")**: *"I deeply appreciate your candor..."*
@@ -46,6 +59,8 @@ This repository is pre-built to run natively across all major AI agent harnesses
 | **Raw OpenAI API** | 🔵 Optional | `adapters/codex/` system prompt & payload — only if you're not using a harness |
 
 **Default to a harness** — it runs the skill on the subscription you already pay for (Claude, ChatGPT/Codex, etc.). The raw API adapter is for embedding the translator in your own scripts and bills per token on top.
+
+Both skills ship together: `corporate-jargon-translator` (decode/encode) and `lala-panel` (character panel) live side by side in `.agents/skills/` and are discovered by every harness above the same way.
 
 ---
 
@@ -98,9 +113,12 @@ corporate-jargon-translator/
 │   ├── rules/
 │   │   └── corporate-jargon-translator.md        # Native Claude Code rule file
 │   └── skills/
-│       └── corporate-jargon-translator/          # Symlink → .agents/skills/... (Claude Code skill discovery)
+│       ├── corporate-jargon-translator/          # Symlink → .agents/skills/... (Claude Code skill discovery)
+│       └── lala-panel/                           # Symlink → .agents/skills/lala-panel
 ├── .agents/
 │   └── skills/
+│       ├── lala-panel/
+│       │   └── SKILL.md                          # /lala-panel — character panel companion skill
 │       └── corporate-jargon-translator/
 │           ├── SKILL.md                          # Master Antigravity / OpenCode Skill Spec
 │           ├── references/

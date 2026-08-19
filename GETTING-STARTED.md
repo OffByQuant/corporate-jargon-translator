@@ -4,6 +4,28 @@ Welcome to the **Corporate Jargon Translator** skill! This guide will walk you t
 
 ---
 
+## 📋 What a Decode Looks Like (Default Output Contract)
+
+Every decode produces three parts, in this order:
+
+1. **🎙️ Inline Translator Overlay** — the jargon-loaded lines quoted one by one, each answered with a short, deadpan verdict. The Translator waits until the jargon and context are clear; lines with nothing to decode get no commentary.
+
+   ```text
+   > "Leadership sees and deeply values the heavy lifting you've been doing."
+   🎙️ Translator: Compliment this size? Brace yourself.
+
+   > "Our governance committee has placed a temporary hold on senior title calibrations."
+   🎙️ Translator: Promotion denied.
+   ```
+
+2. **Summary Decoder Table** — `| Corporate Jargon / Phrase | Actual Subtext | Risk Level |` with 🟢 LOW / 🟡 MEDIUM / 🟠 HIGH / 🔴 CRITICAL flags.
+
+3. **Tactical Employee Advice** — 2-3 genuine, actionable steps for the person on the receiving end.
+
+The **character panel is on demand**: ask *"how would all the personas respond?"*, name one (*"what would Dave say?"*), request the **full show** (decode + panel), or invoke **`/lala-panel`** directly.
+
+---
+
 ## 🎯 Test Benchmarks & Sample Prompts
 
 Below are the benchmark prompts used to test the translator. You can copy-paste any of these prompts directly into your AI assistant (Antigravity, OpenCode, Claude Code, ChatGPT, Cursor).
@@ -58,17 +80,18 @@ Below are the benchmark prompts used to test the translator. You can copy-paste 
 >  
 > Regarding the Senior Director promotion, the Board and I completely agree that your trajectory is pointed toward executive leadership. However, because we are actively standardizing our organizational chart for external investors and future IPO optics, our corporate governance committee has placed a temporary hold on senior title calibrations. We want to ensure your promotion gets the uncompromised spotlight, executive equity allocation, and external visibility it truly deserves when the capital restructuring is finalized. Let’s keep operating at this high level, absorb the remaining accounts from the recent transition, and build an irrefutable business case for the upcoming cycle.
 
-**Expected Decoded Insights**:
+**Expected Decoded Insights** (delivered as overlay → table → advice):
 - **"Heavy lifting across key client accounts"** → You carry 100% of client revenue; you hold maximum operational leverage.
 - **"Temporary hold on senior title calibrations"** → **Promotion and raise DENIED.** Dangled carrot blamed on fake IPO audits.
 - **"Absorb remaining accounts & build an irrefutable business case"** → Unpaid workload dump + moving goalposts.
 - **Tactical Tip**: Weaponize your operational leverage *before* stabilizing the accounts for free.
+- Note the overlay skips *"Thanks for the candid chat"* — nothing decodes there yet, so the Translator stays silent.
 
 ---
 
 ### Benchmark 4: Character Commentary Mode (Lala Company Edition)
 
-**Prompt**:
+**Prompt** (or equivalently: `/lala-panel <the announcement>`):
 > Give me a Lala Company panel reaction to this announcement:
 > "We are asking everyone to wear multiple hats and embrace an owner mindset. Traditional compensation adjustments will take a backseat as we optimize our balance sheet for pre-IPO scrutiny."
 
@@ -87,13 +110,16 @@ Below are the benchmark prompts used to test the translator. You can copy-paste 
 Prefer a harness (options 1-3) — it runs the skill on the AI subscription you already pay for. The raw API route (option 5) bills per token and is only needed for embedding the translator in your own scripts.
 
 ### 1. Google Antigravity & OpenCode
-Both Antigravity and OpenCode automatically load `.agents/skills/corporate-jargon-translator/SKILL.md`. Simply paste any benchmark prompt into the chat interface.
+Both Antigravity and OpenCode automatically load the skills from `.agents/skills/` (`corporate-jargon-translator` and `lala-panel`). Simply paste any benchmark prompt into the chat interface.
 
 ### 2. Claude Code
-Run `claude` in this directory. Claude Code discovers the skill via `.claude/skills/corporate-jargon-translator/` and also reads `.claude/rules/corporate-jargon-translator.md` and `CLAUDE.md`.
+Run `claude` in this directory. Claude Code discovers both skills via the `.claude/skills/` symlinks and also reads `.claude/rules/corporate-jargon-translator.md` and `CLAUDE.md`. Invoke directly with `/corporate-jargon-translator` or `/lala-panel`, or just describe what you want decoded.
 
 ### 3. OpenAI Codex CLI
-Run `codex` in this directory. Codex reads `AGENTS.md` and discovers the skill from `.agents/skills/corporate-jargon-translator/SKILL.md`.
+Run `codex` in this directory. Codex reads `AGENTS.md` and discovers both skills from `.agents/skills/`.
+
+### (Also: Cursor)
+Copy `.claude/rules/corporate-jargon-translator.md` to `.cursor/rules/` — see the [portability guide](.agents/skills/corporate-jargon-translator/references/portability_guide.md).
 
 ### 4. CLI Offline Script
 Test pattern matching without network API calls:
