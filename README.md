@@ -36,8 +36,8 @@ Example overlay:
 
 ### 🎭 3. Character Commentary Mode (Lala Company Edition) — on demand
 Summoned when you ask — *"how would all the personas respond to this email?"*, a single-character ask (*"what would Dave say?"*), the **full show** (decode contract first, then the panel), or directly via the **`/lala-panel`** companion skill. A comedic, multi-persona panel roast featuring classic workplace archetypes — and the key gag: **the Founder and Lala Ji are two different people** (the Founder never orders, only celebrates; Lala Ji does the grinding and thinks he's the real CEO):
-- 🧘 **The Founder ("The Enlightened Visionary")**: *"We are a FAMILY! Huge shoutout to the 2 AM commits — THIS is ownership!"* — never orders, only celebrates; delegates the grinding to Lala Ji.
-- 👑 **Lala Ji ("The Self-Proclaimed CEO")**: *"Screw the Founder — I am the real CEO here! Hourly updates. Yes, on Sunday."* — the summoned micromanager who hides when the Founder walks in.
+- 🧘 **The Founder ("The Enlightened Visionary")**: *"We are a FAMILY! Huge shoutout to the 2 AM commits — THIS is ownership!"* — never orders, only celebrates.
+- 👑 **Lala Ji ("The Self-Proclaimed CEO")**: *"Screw the Founder — I am the real CEO here! Hourly updates. Yes, on Sunday."* — the summoned micromanager.
 - 👔 **The Sycophant Senior ("Chief Defense Officer")**: *"I deeply appreciate your candor..."*
 - ☕ **The Tired Technical Anchor ("Dave")**: *"I built the monolith 4 years ago. I'm off-call at 5:00 PM."*
 - 🍕 **The Naive New Joiner ("The True Believer")**: *"Yay! Pizza party! Our 0.01% equity is going to IPO!"*
