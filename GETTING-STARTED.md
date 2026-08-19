@@ -73,7 +73,8 @@ Below are the benchmark prompts used to test the translator. You can copy-paste 
 > "We are asking everyone to wear multiple hats and embrace an owner mindset. Traditional compensation adjustments will take a backseat as we optimize our balance sheet for pre-IPO scrutiny."
 
 **Expected Decoded Output**:
-- 👑 **Lala Ji (Founder)**: *"We are a FAMILY! Money comes and goes, but equity in our family is FOREVER!"*
+- 🧘 **The Founder (Enlightened Visionary)**: *"We are a FAMILY! Money comes and goes, but equity in our family is FOREVER. Huge shoutout to everyone grinding this weekend — I see you!"*
+- 👑 **Lala Ji (Self-Proclaimed CEO)**: *"You heard him. But between us? Screw the Founder — I run this floor. Hourly updates, and be on WhatsApp Sunday."*
 - 👔 **Sycophant VP**: *"Leadership is taking a disciplined approach to capital allocation."*
 - ☕ **Dave (Tired Tech Lead)**: *"Owner hours? Yes. Owner pay? No. I'm off-call at 5:00 PM."*
 - 🍕 **Naive Joiner**: *"Yay! Pizza party! Our 0.01% equity is going to IPO!"*

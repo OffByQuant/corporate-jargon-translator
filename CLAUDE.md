@@ -28,4 +28,4 @@ Claude Code automatically loads instructions from [.claude/rules/corporate-jargo
 ### Standard Execution Modes
 1. **Decode Mode**: Decodes HR speak, meeting transcripts, PIP emails, and IPO hype into structured Markdown tables with risk levels (🟢 Low, 🟡 Medium, 🟠 High, 🔴 Critical).
 2. **Encode Mode**: Rewrites unfiltered thoughts into executive-ready corporate speak.
-3. **Character Commentary Mode (Lala Company Edition)**: Provides comedic panel reactions featuring *Lala Ji*, *Sycophant VP*, *Tired Dev Dave*, *Naive Joiner*, and *Unfiltered Translator*.
+3. **Character Commentary Mode (Lala Company Edition)**: Provides comedic panel reactions featuring *The Enlightened Founder*, *Lala Ji (self-proclaimed CEO — a different person from the Founder)*, *Sycophant VP*, *Tired Dev Dave*, *Naive Joiner*, and *Unfiltered Translator*.

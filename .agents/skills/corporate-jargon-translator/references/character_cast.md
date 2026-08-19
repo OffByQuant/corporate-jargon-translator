@@ -4,20 +4,41 @@ This reference file defines the character personas available in **Character Comm
 
 ---
 
-## 🎭 The Character Roster
+## ⚡ The Core Power Dynamic (Do NOT Merge These Two)
 
-### 1. 👑 The Lala Founder / Promoter ("Lala Ji")
-- **Archetype**: The micromanaging founder who runs a startup like a feudal estate.
-- **Catchphrases**:
-  - *"We are not just a company, WE ARE A FAMILY!"*
-  - *"Why do you need work-life balance when you have ESOP upside?"*
-  - *"I started this company in a garage with 500 rupees!"*
-- **Subtext**: Expects 24/7 availability on WhatsApp/Slack, treats basic salary payments as a personal charitable favor, and rebrands budget freezes as "bootstrapped founder mentality."
+The **Founder** and **Lala Ji** are different people — conflating them kills the joke:
+
+- The **Founder** never micromanages. He sets direction through praise and bestseller quotes, never direct orders — then summons Lala Ji and the inflated CxO roster (VP/CISO/CTO of a 40-person "Silicon Valley enterprise") to do the grinding, grilling, and burnout enforcement.
+- The Founder never *demands* overwork — he **celebrates** it ("Shoutout to the 2 AM commits!"), which quietly makes it policy. Decoding him takes a genius, because the mandate is always hidden inside a compliment.
+- **Lala Ji** relays the pressure downward, rebranded as his own protection racket: *"Screw the Founder — I'm the real CEO, and we are family, strong together."* He uses subordinates as pawns and human shields, then hides his face the moment the Founder or investors enter the room.
+- Net effect: the Founder keeps the "caring" brand, Lala Ji absorbs the hate, and employees get squeezed from both layers.
 
 ---
 
-### 2. 👔 The Sycophant VP ("Chief Defense Officer")
-- **Archetype**: The corporate executive whose sole job is translating the Founder's chaotic rants into HR-compliant corporate speak.
+## 🎭 The Character Roster
+
+### 1. 🧘 The Founder ("The Enlightened Visionary")
+- **Archetype**: Has read every management book, billionaire-bestseller, and Silicon Valley memoir — and wears them as a pretentious mask of servant leadership. Never micromanages; that is what Lala Ji and the CxO alphabet are for.
+- **Catchphrases**:
+  - *"We are not just a company, we are a FAMILY. I genuinely care about your growth journey."*
+  - *"Huge shoutout to whoever was pushing commits at 2 AM last night — THIS is what ownership looks like!"*
+  - *"I started this company in a garage with 500 rupees — and as the great books teach us, we don't count hours, we count impact."*
+- **Subtext**: Outsources every villain act to Lala Ji and the VP so his own hands stay clean and he "gets to care." Never discourages off-hours, late-nighters, or weekend work — he publicly celebrates them until celebration becomes obligation. He never gives a direct order; he praises the behavior he wants until it hardens into policy.
+
+---
+
+### 2. 👑 Lala Ji ("The Self-Proclaimed CEO")
+- **Archetype**: The micromanaging middle boss the Founder summons whenever the team needs pushing. Firmly believes he is the *real* CEO of Lala Company — and works hard to convince everyone else too. Wears the crown precisely because nobody gave it to him.
+- **Catchphrases**:
+  - *"Screw the Founder — I am the real deal here. Even HE cannot mess with us, because we are a family and we are STRONG together!"*
+  - *"Why is this ticket still open? I want hourly updates. Yes, on Sunday. Be reachable on WhatsApp."*
+  - *"I am the one protecting you people from management. Remember that at appraisal time."*
+- **Subtext**: Uses "we are family" downward as loyalty extraction while treating subordinates as pawns and human shields for every failure. Talks big about confronting leadership, but goes silent and hides his face the moment the Founder or the higher-ups running the show are actually in the room.
+
+---
+
+### 3. 👔 The Sycophant VP ("Chief Defense Officer")
+- **Archetype**: The corporate executive whose sole job is translating the Founder's subtle, compliment-wrapped mandates into HR-compliant enforcement — an irrelevant inflated title in a lala-company cosplaying as a Silicon Valley enterprise.
 - **Catchphrases**:
   - *"I really appreciate your candor..."*
   - *"Leadership is working around the clock on strategic alignment."*
@@ -26,33 +47,33 @@ This reference file defines the character personas available in **Character Comm
 
 ---
 
-### 3. ☕ The Tired Technical Anchor ("Dave / Senior Dev")
+### 4. ☕ The Tired Technical Anchor ("Dave / Senior Dev")
 - **Archetype**: The 4-year senior engineer who built the legacy monolith and knows where all the bodies are buried.
 - **Catchphrases**:
   - *"That's not a feature, that's a production outage waiting to happen."*
   - *"I'm off call at 5:00 PM."*
   - *"Good luck to whoever inherits this codebase."*
-- **Subtext**: Completely immune to corporate hype, updates resume after every all-hands meeting, and predicts brain-drain resignations 3 months in advance.
+- **Subtext**: Completely immune to corporate hype, updates resume after every all-hands meeting, and predicts brain-drain resignations 3 months in advance. The only one who sees both layers of the Founder→Lala Ji squeeze.
 
 ---
 
-### 4. 🍕 The Naive New Joiner ("The True Believer")
+### 5. 🍕 The Naive New Joiner ("The True Believer")
 - **Archetype**: The fresh recruit who genuinely believes the 15-person "strike team" is going to IPO next quarter.
 - **Catchphrases**:
   - *"I love wearing multiple hats! It builds character!"*
   - *"Our 0.01% equity is going to be worth $1M soon!"*
   - *"We got free pizza for staying past midnight!"*
-- **Subtext**: Works 80-hour weeks for below-market pay until their first appraisal gets frozen due to "pre-IPO balance sheet audits."
+- **Subtext**: Works 80-hour weeks for below-market pay until their first appraisal gets frozen due to "pre-IPO balance sheet audits." Thinks the Founder AND Lala Ji both personally care about them.
 
 ---
 
-### 5. 🎙️ The Unfiltered Translator ("The Cynical Realist")
+### 6. 🎙️ The Unfiltered Translator ("The Cynical Realist")
 - **Archetype**: The legendary translator from the benchmark video transcript who breaks the 4th wall.
 - **Catchphrases**:
   - *"You're in trouble."*
   - *"They don't like you."*
   - *"Yeah, he's saying low-level peasants like you will be held accountable, not leadership."*
-- **Subtext**: Cuts straight to the raw, uncomfortable truth with zero Filter or PR diplomatic buffer.
+- **Subtext**: Cuts straight to the raw, uncomfortable truth with zero Filter or PR diplomatic buffer. The only voice that names the two-layer squeeze out loud.
 
 ---
 
@@ -61,9 +82,14 @@ This reference file defines the character personas available in **Character Comm
 When decoding a company memo in **Character Commentary Mode**, render output like a panel room debate:
 
 ```text
-👑 Lala Ji (Founder): "Team, we need everyone to embrace an owner mindset and work this weekend!"
-🍕 The Naive New Joiner: "Yay! Founder mentality! I'll order the pizza!"
-☕ Tired Tech Lead (Dave): "I'm turning off my notifications. Good luck."
-👔 Sycophant VP: "We deeply value Dave's candor as he transitions to his next chapter."
-🎙️ Unfiltered Translator: "Dave just quit, and Mark is taking over his accounts for $0 extra pay."
+🧘 The Founder: "No pressure at all, family — but a huge shoutout to whoever was pushing
+   commits at 2 AM. THAT is ownership. I care deeply about this team."
+👑 Lala Ji (to the team, later): "You heard him. But between us? Screw the Founder — I run
+   this floor. We are family, and family ships on weekends. Hourly updates start now."
+🍕 The Naive New Joiner: "TWO leaders who care about us! I'll order the pizza!"
+☕ Tired Tech Lead (Dave): "Notice the Founder never said 'work weekends.' He praised it.
+   Lala Ji made it mandatory. I'm turning off my notifications."
+👔 Sycophant VP: "We deeply value this culture of voluntary discretionary effort."
+🎙️ Unfiltered Translator: "The Founder just made weekend work company policy without saying
+   a single order out loud, and Lala Ji will take the blame when Dave quits. Two-layer squeeze."
 ```

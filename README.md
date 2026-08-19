@@ -23,7 +23,8 @@ Inspired by the viral *Corporate Translator* video, **Corporate Jargon Translato
 
 ### 🎭 3. Character Commentary Mode (Lala Company Edition)
 Provides a comedic, multi-persona panel roast featuring classic workplace archetypes:
-- 👑 **The Lala Founder ("Lala Ji")**: *"We are a FAMILY! Why do you need a salary raise when you have ESOP upside?"*
+- 🧘 **The Founder ("The Enlightened Visionary")**: *"We are a FAMILY! Huge shoutout to the 2 AM commits — THIS is ownership!"* — never orders, only celebrates; delegates the grinding to Lala Ji.
+- 👑 **Lala Ji ("The Self-Proclaimed CEO")**: *"Screw the Founder — I am the real CEO here! Hourly updates. Yes, on Sunday."* — the summoned micromanager who hides when the Founder walks in.
 - 👔 **The Sycophant VP ("Chief Defense Officer")**: *"I deeply appreciate your candor..."*
 - ☕ **The Tired Technical Anchor ("Dave")**: *"I built the monolith 4 years ago. I'm off-call at 5:00 PM."*
 - 🍕 **The Naive New Joiner ("The True Believer")**: *"Yay! Pizza party! Our 0.01% equity is going to IPO!"*
