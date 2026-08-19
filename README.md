@@ -39,9 +39,12 @@ This repository is pre-built to run natively across all major AI agent harnesses
 | :--- | :--- | :--- |
 | **Google Antigravity** | 🟢 Native | Auto-loads `.agents/skills/corporate-jargon-translator/SKILL.md` |
 | **OpenCode** | 🟢 Native | Auto-loads `.agents/skills/corporate-jargon-translator/SKILL.md` |
-| **Claude Code** | 🟢 Native | Auto-loads `.claude/rules/corporate-jargon-translator.md` & `CLAUDE.md` |
-| **OpenAI / Codex** | 🟢 Supported | Copy `adapters/codex/system_prompt.txt` or send `system_prompt.json` |
+| **Claude Code** | 🟢 Native | Auto-loads `.claude/skills/corporate-jargon-translator/SKILL.md`, `.claude/rules/` & `CLAUDE.md` |
+| **OpenAI Codex CLI** | 🟢 Native | Auto-loads `AGENTS.md` & `.agents/skills/corporate-jargon-translator/SKILL.md` |
 | **Cursor** | 🟢 Supported | Copy `.claude/rules/corporate-jargon-translator.md` to `.cursor/rules/` |
+| **Raw OpenAI API** | 🔵 Optional | `adapters/codex/` system prompt & payload — only if you're not using a harness |
+
+**Default to a harness** — it runs the skill on the subscription you already pay for (Claude, ChatGPT/Codex, etc.). The raw API adapter is for embedding the translator in your own scripts and bills per token on top.
 
 ---
 
@@ -66,8 +69,8 @@ python3 .agents/skills/corporate-jargon-translator/scripts/translate.py --test
 python3 .agents/skills/corporate-jargon-translator/scripts/translate.py --decode "We are asking everyone to wear multiple hats."
 ```
 
-### 3. OpenAI / Codex API Call
-Generate API payloads for GPT-4o / Codex:
+### 3. Optional: Raw OpenAI API
+Only needed outside a harness (e.g. embedding the translator in your own scripts). Generate the API payload:
 
 ```bash
 python3 adapters/codex/openai_api_demo.py
@@ -82,9 +85,12 @@ corporate-jargon-translator/
 ├── README.md                                     # Main project documentation
 ├── GETTING-STARTED.md                            # Benchmark test prompts & execution guide
 ├── CLAUDE.md                                     # Repository guide for Claude Code
+├── AGENTS.md                                     # Repository guide for Codex CLI & agentskills.io harnesses
 ├── .claude/
-│   └── rules/
-│       └── corporate-jargon-translator.md        # Native Claude Code rule file
+│   ├── rules/
+│   │   └── corporate-jargon-translator.md        # Native Claude Code rule file
+│   └── skills/
+│       └── corporate-jargon-translator/          # Symlink → .agents/skills/... (Claude Code skill discovery)
 ├── .agents/
 │   └── skills/
 │       └── corporate-jargon-translator/
@@ -98,10 +104,10 @@ corporate-jargon-translator/
 │           └── scripts/
 │               └── translate.py                  # Offline CLI matcher & test suite
 └── adapters/
-    └── codex/
-        ├── system_prompt.txt                     # Copy-pasteable system prompt
-        ├── system_prompt.json                    # OpenAI API payload config
-        └── openai_api_demo.py                    # Python API demo script
+    └── codex/                                    # Optional raw-API route (harness route needs none of this)
+        ├── system_prompt.txt                     # Copy-pasteable system prompt (source of truth)
+        ├── system_prompt.json                    # Generated API payload (openai_api_demo.py --write-json)
+        └── openai_api_demo.py                    # Python API payload generator
 ```
 
 ---

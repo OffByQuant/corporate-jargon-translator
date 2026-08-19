@@ -83,13 +83,18 @@ Below are the benchmark prompts used to test the translator. You can copy-paste 
 
 ## 💻 How to Run in Different Environments
 
+Prefer a harness (options 1-3) — it runs the skill on the AI subscription you already pay for. The raw API route (option 5) bills per token and is only needed for embedding the translator in your own scripts.
+
 ### 1. Google Antigravity & OpenCode
 Both Antigravity and OpenCode automatically load `.agents/skills/corporate-jargon-translator/SKILL.md`. Simply paste any benchmark prompt into the chat interface.
 
 ### 2. Claude Code
-Run `claude` in this directory. Claude Code automatically reads `.claude/rules/corporate-jargon-translator.md` and `CLAUDE.md`.
+Run `claude` in this directory. Claude Code discovers the skill via `.claude/skills/corporate-jargon-translator/` and also reads `.claude/rules/corporate-jargon-translator.md` and `CLAUDE.md`.
 
-### 3. CLI Offline Script
+### 3. OpenAI Codex CLI
+Run `codex` in this directory. Codex reads `AGENTS.md` and discovers the skill from `.agents/skills/corporate-jargon-translator/SKILL.md`.
+
+### 4. CLI Offline Script
 Test pattern matching without network API calls:
 ```bash
 # Run automated test suite
@@ -99,8 +104,8 @@ python3 .agents/skills/corporate-jargon-translator/scripts/translate.py --test
 python3 .agents/skills/corporate-jargon-translator/scripts/translate.py --decode "We are asking everyone to wear multiple hats."
 ```
 
-### 4. OpenAI / Codex API
-Run the included python API helper script:
+### 5. Optional: Raw OpenAI API (pay-per-token)
+Only for embedding the translator in your own scripts, outside a harness:
 ```bash
 python3 adapters/codex/openai_api_demo.py
 ```

@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
-OpenAI / Codex API Demo Script for Corporate Jargon Translator
+OpenAI API Demo Script for Corporate Jargon Translator (optional route)
 Demonstrates how to call the OpenAI Chat Completions API using the Corporate Jargon Translator system prompt.
+
+Note: this raw-API route bills per token. If you use Codex CLI (or any
+agentskills.io-compatible harness), skip this adapter entirely — the harness
+auto-loads the skill from AGENTS.md + .agents/skills/ on your existing subscription.
 """
 
 import os

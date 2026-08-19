@@ -48,9 +48,13 @@ Add the following snippet directly into your repository's `CLAUDE.md`:
 
 ---
 
-## 2. Porting to OpenAI / Codex (System Prompt Template)
+## 2. Porting to OpenAI Codex
 
-For OpenAI GPT-4o / Codex API calls or custom system prompts, copy the standard prompt block below:
+### Option A: Codex CLI (Recommended — runs on your ChatGPT subscription)
+Codex CLI needs no adapter: it reads `AGENTS.md` at the repo root and discovers the skill from `.agents/skills/corporate-jargon-translator/SKILL.md` (agentskills.io convention). Just run `codex` in the repository.
+
+### Option B: Raw API / Custom System Prompt (Optional — pay-per-token)
+For embedding the translator in your own scripts via the OpenAI API, copy the standard prompt block below (or use `adapters/codex/system_prompt.txt` and `openai_api_demo.py`):
 
 ```text
 SYSTEM PROMPT: Corporate Jargon Translator
