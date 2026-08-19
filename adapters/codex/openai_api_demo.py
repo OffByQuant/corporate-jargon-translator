@@ -16,7 +16,7 @@ def load_system_prompt():
 def generate_api_payload(user_input_text):
     system_prompt = load_system_prompt()
     payload = {
-        "model": "gpt-4o",
+        "model": "gpt-4.1",
         "temperature": 0.3,
         "messages": [
             {
@@ -40,13 +40,21 @@ def main():
     )
     
     payload = generate_api_payload(sample_text)
-    print("=== OPENAI API PAYLOAD GENERATED SUCCESSFULLY ===")
-    print(json.dumps(payload, indent=2))
+    if "--write-json" in sys.argv:
+        json_path = os.path.join(os.path.dirname(__file__), "system_prompt.json")
+        with open(json_path, "w") as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        print(f"=== WROTE API-READY PAYLOAD TO {json_path} ===")
+    else:
+        print("=== OPENAI API PAYLOAD GENERATED SUCCESSFULLY ===")
+        print(json.dumps(payload, indent=2))
     print("\nTo invoke via curl:")
     print("curl https://api.openai.com/v1/chat/completions \\")
     print("  -H 'Content-Type: application/json' \\")
     print("  -H 'Authorization: Bearer $OPENAI_API_KEY' \\")
     print("  -d '@adapters/codex/system_prompt.json'")
+    print("\n(system_prompt.json is generated from system_prompt.txt — regenerate after edits with: python3 adapters/codex/openai_api_demo.py --write-json)")
 
 if __name__ == "__main__":
     main()
