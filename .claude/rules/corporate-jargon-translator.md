@@ -9,7 +9,7 @@ When processing meeting transcripts, executive announcements, performance review
 
 1. **DECODE MODE (Corporate Speak → Raw Truth)**:
    - Identify corporate jargon, HR euphemisms, and startup equity claims ("IPO hype", "monopoly-money ESOPs", "SME delusions", "working around the clock").
-   - **Lead with the 🎙️ Inline Translator Overlay**: quote each jargon-loaded line, then the Unfiltered Translator's one-line razor commentary. THEN the table.
+   - **Lead with the 🎙️ Inline Translator Overlay**: quote the jargon-loaded lines (skip filler), each followed by a 3-12 word deadpan Translator verdict. The Translator reacts in real time — no future knowledge, only what's been read so far. THEN the table.
    - Output structured Markdown table with line breaks:
      ```markdown
      | Corporate Jargon / Phrase | Actual Subtext | Risk Level |
