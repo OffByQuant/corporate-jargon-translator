@@ -60,11 +60,11 @@ Below are the benchmark prompts used to test the translator. You can copy-paste 
 > **Hi everyone**,  
 > We want to share an important structural evolution within our technology leadership. First, we want to extend our deepest gratitude to Dave for his contributions over the past four years in establishing our delivery baseline; we wish him the absolute best in his next chapter as an industry alum.  
 >  
-> With Dave’s departure, we are thrilled to announce that Mark is stepping into the role of Chief Strategy Officer (CSO). Mark has demonstrated immense passion for our overarching vision, and this transition frees him from day-to-day client accounts to focus exclusively on macro-level strategy architecture, enterprise risk governance, and public-readiness compliance. Given the critical nature of this strategic mandate, we have concluded his previous operational development framework early so he can fully focus on building institutional trust at the C-suite level. Please join us in congratulating Mark on this vital milestone.
+> With Dave’s departure, we are thrilled to announce that Greg is stepping into the role of Chief Strategy Officer (CSO). Greg has demonstrated immense passion for our overarching vision, and this transition frees him from day-to-day client accounts to focus exclusively on macro-level strategy architecture, enterprise risk governance, and public-readiness compliance. Given the critical nature of this strategic mandate, we have concluded his previous operational development framework early so he can fully focus on building institutional trust at the C-suite level. Please join us in congratulating Greg on this vital milestone.
 
 **Expected Decoded Insights**:
 - **"Established delivery baseline / Industry alum (Dave)"** → **High-Performer Brain Drain**: Voluntary resignation of a competent 4-year technical anchor fleeing bad executive leadership.
-- **"Frees him from client accounts to focus on macro-level architecture (Mark)"** → **Kicked Upstairs / Containment**: Removed from revenue roles due to client complaints; placed in a powerless Chief Strategy Officer title with zero direct reports.
+- **"Frees him from client accounts to focus on macro-level architecture (Greg)"** → **Kicked Upstairs / Containment**: Removed from revenue roles due to client complaints; placed in a powerless Chief Strategy Officer title with zero direct reports.
 - **"Concluded operational development framework early"** → **PIP Cover-Up**: Quietly dropped an active HR Performance Improvement Plan (PIP) to rebrand a demotion as a C-suite promotion.
 
 ---
