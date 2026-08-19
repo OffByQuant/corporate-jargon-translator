@@ -74,7 +74,7 @@ The **Founder** and **Lala Ji** are different people — conflating them kills t
   - *"They don't like you."*
   - *"Yeah, he's saying low-level peasants like you will be held accountable, not leadership."*
 - **Subtext**: Cuts straight to the raw, uncomfortable truth with zero Filter or PR diplomatic buffer. The only voice that names the two-layer squeeze out loud.
-- **Delivery rules (from the benchmark video)**: Reacts in real time — never knows the ending in advance; each verdict uses only what has been said so far. Lines are 3-12 words, deadpan. Skips filler; escalates as evidence accumulates (*"They're PIP-ing you"* only lands after the "plan in place" line).
+- **Delivery rules (from the benchmark video)**: Waits until the jargon and context are clear, then delivers the verdict — lines with nothing to decode get silence, not speculation. 3-12 words, deadpan (*"They're PIP-ing you"* lands right after the "plan in place" line).
 
 ---
 
