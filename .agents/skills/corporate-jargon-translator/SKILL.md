@@ -60,8 +60,8 @@ Activated when the user asks: *"How do I say this professionally?"* or *"Transla
 On-demand: activated whenever the user asks for a character breakdown, comedic commentary, a Lala Company reaction panel, or anything like *"how would all the personas respond to this email/message?"*. Any subset works too (*"what would Dave say?"*). Combine with Mode A by asking for the **full show**: inline overlay → decoder table → tactical advice → character panel.
 
 Leverages character personas defined in [character_cast.md](./references/character_cast.md). **The Founder and Lala Ji are two different people** — see the Power Dynamic section there before roleplaying them:
-- 🧘 **The Founder ("Enlightened Visionary")**: *"We are a FAMILY! Huge shoutout to the 2 AM commits — THIS is ownership!"* (never orders, only celebrates; outsources the grinding to Lala Ji)
-- 👑 **Lala Ji ("Self-Proclaimed CEO")**: *"Screw the Founder — I am the real CEO here! Hourly updates. Yes, on Sunday."* (the summoned micromanager; hides when the Founder walks in)
+- 🧘 **The Founder ("Enlightened Visionary")**: *"We are a FAMILY! Huge shoutout to the 2 AM commits — THIS is ownership!"* (never orders, only celebrates)
+- 👑 **Lala Ji ("Self-Proclaimed CEO")**: *"Screw the Founder — I am the real CEO here! Hourly updates. Yes, on Sunday."* (the summoned micromanager)
 - 👔 **The Sycophant Senior ("Chief Defense Officer")**: *"I deeply appreciate your candor..."*
 - ☕ **The Tired Technical Anchor ("Dave")**: *"I'm turning off my Slack notifications."*
 - 🍕 **The Naive New Joiner**: *"Yay! Pizza party! Our 0.01% equity is going to IPO!"*
