@@ -59,6 +59,13 @@ Decode this email from my manager using corporate-jargon-translator:
 "We are taking a disciplined approach to cash flow and operational bandwidth..."
 ```
 
+In harnesses with slash-command skill invocation (Claude Code, Codex CLI), the skills are directly callable:
+
+```text
+/corporate-jargon-translator decode this email: ...
+/lala-panel how would everyone react to this memo: ...
+```
+
 ### 2. Running Offline CLI Tests
 Test the pattern matcher and benchmark test suite locally:
 
