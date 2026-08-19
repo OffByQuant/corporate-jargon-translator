@@ -147,4 +147,4 @@ corporate-jargon-translator/
 
 ## 📄 License
 
-MIT License. Free for all employees, developers, and AI agents looking to translate corporate speak into truth!
+[MIT License](LICENSE). Free for all employees, developers, and AI agents looking to translate corporate speak into truth!
